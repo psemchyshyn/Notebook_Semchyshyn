@@ -17,7 +17,7 @@ class Note():
         creation date and a unique id
         '''
         self.memo = memo
-        self.tags = ""
+        self.tags = tags
         self.creation_date = datetime.date.today()
         global last_id
         last_id += 1

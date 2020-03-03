@@ -75,7 +75,3 @@ class Notebook():
         string
         '''
         return [note for note in self.notes if note.match(filter)]
-
-
-
-
