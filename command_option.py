@@ -1,3 +1,9 @@
+"""
+Pavlo Smemchyshyn
+23/02/2020
+"""
+
+
 import datetime
 
 # Store the next available id for all the notes

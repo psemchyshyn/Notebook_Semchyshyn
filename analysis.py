@@ -1,3 +1,9 @@
+"""
+Pavlo Smemchyshyn
+23/02/2020
+"""
+
+
 from notebook import Notebook, Note
 
 
@@ -12,7 +18,7 @@ def clas_note():
     all_attr, built_in_attr, created_attr = all_object_attr(note)
     print("All attributes of Note object:", all_attr, "\n")
     print("Built-in attributes:", built_in_attr, "\n")
-    print("Creates attributes:", created_attr, "\n")
+    print("Created attributes:", created_attr, "\n")
 
 
 def clas_notebook():
@@ -29,12 +35,12 @@ def clas_notebook():
     print("Created attributes:", created_attr, "\n")
 
 
-def all_object_attr(object):
+def all_object_attr(objectt):
     """
     A function for getting all
     attributes of an object
     """
-    all_attr = dir(object)
+    all_attr = dir(objectt)
     built_ins = []
     created_attr = []
     for attr in all_attr:
@@ -49,4 +55,3 @@ if __name__ == "__main__":
     clas_note()
     print("_"*100)
     clas_notebook()
-    

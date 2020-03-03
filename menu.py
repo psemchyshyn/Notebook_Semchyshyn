@@ -1,3 +1,9 @@
+"""
+Pavlo Smemchyshyn
+23/02/2020
+"""
+
+
 from notebook import Notebook, Note
 import sys
 
